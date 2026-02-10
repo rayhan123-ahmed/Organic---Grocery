@@ -18,7 +18,7 @@ body {
   color: #ffffff;
 }
 .container-flud {
-  padding: 0rem 3rem;
+  padding: 0rem 2rem;
 }
 .container-lg{
     max-width: 160rem;
@@ -41,5 +41,43 @@ button {
 }
 select {
   cursor: pointer;
+}
+.py-3{
+  padding: 2rem 0;
+}
+.py-2{
+ padding: .5rem;
+}
+.border-bottom{
+  border-bottom: 1px solid #f7f7f7;
+}
+.col-log-16{
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+.col-log-33{
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+.col-log-58{
+  flex: 0 0 auto;
+  width: 57.33333333%;
+}
+.col-log-8{
+   flex: 0 0 auto;
+  width: 8.33333333%;
+}
+.de-flex{
+  display: flex;
+}
+.text-aling{
+  text-align: center;
+}
+.align-item{
+  display: flex;
+  align-items: center;
+}
+.gap-01{
+  gap: 3rem;
 }
 
