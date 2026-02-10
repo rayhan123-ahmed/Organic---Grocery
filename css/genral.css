@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+::selection {
+  background: #3266d0;
+  color: #ffffff;
+}
+.container-flud {
+  padding: 0rem 3rem;
+}
+.container-lg{
+    max-width: 160rem;
+    padding: 0rem 3rem;
+}
+.row{
+    display: flex;
+    flex-wrap: warp;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+select {
+  cursor: pointer;
+}
+
