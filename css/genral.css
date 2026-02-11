@@ -23,6 +23,7 @@ body {
 .container-lg{
     max-width: 160rem;
     padding: 0rem 3rem;
+    margin: 0 auto;
 }
 .row{
     display: flex;
@@ -55,17 +56,38 @@ select {
   flex: 0 0 auto;
   width: 16.66666667%;
 }
+.col-log-25{
+  flex: 0 0 auto;
+  width: 25%;
+}
 .col-log-33{
   flex: 0 0 auto;
   width: 33.33333333%;
 }
+.col-log-50{
+  flex: 0 0 auto;
+  width: 50%;
+}
 .col-log-58{
+  flex: 0 0 auto;
+  width: 57.33333333%;
+}
+.col-log-75{
   flex: 0 0 auto;
   width: 57.33333333%;
 }
 .col-log-8{
    flex: 0 0 auto;
   width: 8.33333333%;
+}
+.col{
+  flex: 1 0 0%;
+  align-items: center;
+}
+.col-auto{
+  flex: 0 0 auto;
+  width: auto;
+  padding: 0rem 1rem;
 }
 .de-flex{
   display: flex;
@@ -80,4 +102,17 @@ select {
 .gap-01{
   gap: 3rem;
 }
-
+.fy-y{
+  padding: 5rem 0;
+}
+.btn{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1.8rem 2.2rem;
+    border-radius: 3rem;
+}
+.margin{
+  margin: 0;
+}
