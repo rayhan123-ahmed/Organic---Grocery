@@ -49,8 +49,19 @@ select {
 .py-2{
  padding: .5rem;
 }
+.me-2{
+   margin-right: 1rem;
+}
 .border-bottom{
   border-bottom: 1px solid #f7f7f7;
+}
+.col-log-8{
+  flex: 0 0 auto;
+  width: 8.33333333%;
+}
+.col-log-12{
+  flex: 0 0 auto;
+  width: 12.3333333%;
 }
 .col-log-16{
   flex: 0 0 auto;
@@ -76,9 +87,10 @@ select {
   flex: 0 0 auto;
   width: 57.33333333%;
 }
-.col-log-8{
-   flex: 0 0 auto;
-  width: 8.33333333%;
+.col-log-100{
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 0rem 1rem;
 }
 .col{
   flex: 1 0 0%;
@@ -105,14 +117,20 @@ select {
 .fy-y{
   padding: 5rem 0;
 }
-.btn{
-    margin-top: 2rem;
-    font-size: 1.6rem;
-    color: #fff;
-    text-transform: uppercase;
-    padding: 1.8rem 2.2rem;
-    border-radius: 3rem;
-}
 .margin{
   margin: 0;
+}
+.btn-view {
+    background-color: #6BB252;
+    color: #f7f7f7;
+    font-size: 1.6rem;
+    padding: 1rem 1.5rem;
+    border-radius: .6rem;
+    transition: all .3s;
+}
+.btn-view:hover {
+   background-color:#f7a422 ;
+}
+.rounded-circle{
+  border-radius: 50% !important;
 }
