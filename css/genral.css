@@ -67,6 +67,10 @@ select {
   flex: 0 0 auto;
   width: 16.66666667%;
 }
+.col-log-20{
+  flex: 0 0 auto;
+  width: 20%;
+}
 .col-log-25{
   flex: 0 0 auto;
   width: 25%;
@@ -85,7 +89,7 @@ select {
 }
 .col-log-75{
   flex: 0 0 auto;
-  width: 57.33333333%;
+  width: 75.33333333%;
 }
 .col-log-100{
   flex: 0 0 auto;
@@ -103,6 +107,7 @@ select {
 }
 .de-flex{
   display: flex;
+  flex-wrap: wrap;
 }
 .text-aling{
   text-align: center;
@@ -111,8 +116,17 @@ select {
   display: flex;
   align-items: center;
 }
+.justify-cntent-center{
+  justify-content: center;
+}
 .gap-01{
   gap: 3rem;
+}
+.gap-02{
+  gap: 1rem;
+}
+.gap-03{
+  gap: .5rem;
 }
 .fy-y{
   padding: 5rem 0;
