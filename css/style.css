@@ -306,6 +306,88 @@ del {
   background-color: #212529;
 }
 .heart-btn-area:hover .heart-btn {
-  
   color: #f7f7f7;
+}
+/* *********** */
+/* SHOP-NOW SECTION */
+/* *********** */
+.shop-now{
+    padding: 4rem 0;
+}
+.banner-wrapper{
+    display: flex;
+    gap: 3rem;
+    height: 45rem;
+}
+.left-banner{
+    flex: 0 0 60%;
+    background: url(../images/banner-ad-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    position: relative;
+}
+.right-banner {
+  flex: 0 0 40%; 
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.banner-content {
+    position: relative;
+    top: 35%;
+    left: 4rem;
+    display: inline-block;
+}
+.banner-title {
+    color: #f7f7f7;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+.content-wrapper p{
+    color: #f7f7f7;
+    font-size: 1.5rem;
+    margin-bottom: 2.8rem;
+}
+.shop-link{
+    position: relative;
+    color: #f7f7f7;
+    text-transform:uppercase ;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transition: all .5s;
+}
+.shop-link::before,.shop-link::after {
+    position: absolute;
+    content: '';
+    background-color: #f8f8f833;
+    width: 100%;
+    top: 2rem;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    transition: 0.3s ease;
+}
+.shop-link:hover::after{
+    background-color: #f7f7f7;
+}
+.right-top,
+.right-bottom{
+    flex: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+.right-top{
+    background: url(../images/banner-ad-2.jpg);
+}
+.right-bottom{
+    background: url(../images/banner-ad-3.jpg);
+}
+/* *********** */
+/* FEATURED SECTION */
+/* *********** */
+.featured{
+    padding: 4rem 0;
 }
