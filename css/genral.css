@@ -25,6 +25,11 @@ body {
     padding: 0rem 3rem;
     margin: 0 auto;
 }
+.container{
+    max-width: 130rem;
+    padding: 0rem 3rem;
+    margin: 0 auto;
+}
 .row{
     display: flex;
     flex-wrap: warp;
@@ -78,6 +83,10 @@ select {
 .col-log-33{
   flex: 0 0 auto;
   width: 33.33333333%;
+}
+.col-log-41{
+  flex: 0 0 auto;
+  width: 41.66666667%;
 }
 .col-log-50{
   flex: 0 0 auto;
