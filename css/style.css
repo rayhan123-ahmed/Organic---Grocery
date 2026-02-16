@@ -388,7 +388,9 @@ del {
 /* *********** */
 /* FEATURED SECTION */
 /* *********** */
-.featured{
+.featured,
+.popular,
+.arrived{
     padding: 4rem 0;
 }
 /* *********** */
