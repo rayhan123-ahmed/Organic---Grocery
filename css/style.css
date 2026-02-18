@@ -390,7 +390,8 @@ del {
 /* *********** */
 .featured,
 .popular,
-.arrived{
+.arrived,
+.blog{
     padding: 4rem 0;
 }
 /* *********** */
@@ -444,4 +445,38 @@ del {
 .sub-btn:hover {
     background-color: #4d5154;
     border-color: #373b3e;
+}
+/* *********** */
+/* BLOG SECTION */
+/* *********** */
+.blog-card{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    padding: 2rem;
+}
+.card-body{
+    padding: 2rem;
+}
+.post-img{
+    border-radius: .5rem;
+}
+.meta{
+    font-size: 1.2rem;
+    color: #747474;
+    text-transform:uppercase ;
+}
+.post-header p {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: #6c757d;
+}
+.post-title {
+    color: #212529;
+    margin-top: 2rem;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    margin-bottom: 1.4rem;
+}
+.post-title a {
+    color: #212529;
+    font-weight:bold ;
 }
