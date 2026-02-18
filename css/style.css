@@ -391,7 +391,8 @@ del {
 .featured,
 .popular,
 .arrived,
-.blog{
+.blog,
+.app{
     padding: 4rem 0;
 }
 /* *********** */
@@ -479,4 +480,24 @@ del {
 .post-title a {
     color: #212529;
     font-weight:bold ;
+}
+/* *********** */
+/* APP SECTION */
+/* *********** */
+.app-bg{
+    background-color: #ffc107;
+    padding-top: 5rem;
+    border-radius: 4rem;
+}
+.app-title{
+    font-size: 3rem;
+    margin-bottom: 1.8rem;
+}
+.app-text p {
+    color: #747474;
+    font-size: 1.6rem;
+}
+.app-img{
+    flex-wrap: nowrap;
+    margin-top: 2rem;
 }
