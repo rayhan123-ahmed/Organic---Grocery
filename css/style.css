@@ -395,7 +395,8 @@ del {
 .popular,
 .arrived,
 .blog,
-.app{
+.app,
+.Similar-Items{
     padding: 4rem 0;
 }
 /* *********** */
@@ -503,4 +504,20 @@ del {
 .app-img{
     flex-wrap: nowrap;
     margin-top: 2rem;
+}
+/* *********** */
+/* SIMLITER ITEMS SECTION */
+/* *********** */
+.item-link {
+    color: #747474;
+    font-size: 1.6rem;
+    background-color: #FCF7EB;
+    padding: .8rem 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: .5rem;
+    transition: all .2s;
+}
+.item-link:hover {
+    background-color: #FFECBE;
 }
