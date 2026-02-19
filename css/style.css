@@ -1,6 +1,9 @@
 /* *********** */
 /* HEADER SECTION */
 /* *********** */
+header{
+    padding: 2rem 0rem;
+}
 .header-div{
    gap: 2rem;
 }
