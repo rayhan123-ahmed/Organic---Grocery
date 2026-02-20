@@ -389,17 +389,6 @@ del {
     background: url(../images/banner-ad-3.jpg);
 }
 /* *********** */
-/* FEATURED SECTION */
-/* *********** */
-.featured,
-.popular,
-.arrived,
-.blog,
-.app,
-.Similar-Items{
-    padding: 4rem 0;
-}
-/* *********** */
 /* CONATCT SECTION */
 /* *********** */
 .contact{
@@ -520,4 +509,28 @@ del {
 }
 .item-link:hover {
     background-color: #FFECBE;
+}
+/* *********** */
+/* SERVICE SECTION */
+/* *********** */
+.service-card{
+    padding: 2rem;
+    border-color: #364127;
+    border: 1px solid #747474;
+    border-radius: .5rem;
+}
+.service-icon {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    color: #6c757d;
+}
+.service-body h5 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+.service-body p {
+    color: #6c757d;
+    font-size: 1.8rem;
+    line-height: 3rem;
 }
