@@ -140,6 +140,9 @@ select {
 .justify-cntent-center{
   justify-content: center;
 }
+.justify-cntent-space{
+  justify-content: space-between;
+}
 .gap-01{
   gap: 3rem;
 }

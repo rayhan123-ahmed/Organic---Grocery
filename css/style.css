@@ -534,3 +534,71 @@ del {
     font-size: 1.8rem;
     line-height: 3rem;
 }
+/* *********** */
+/* FOOTER CONTENT  SECTION */
+/* *********** */
+.scoial-links{
+    margin-top: 2.2rem;
+}
+.social-icon {
+    padding: 0.85rem 1.375rem;
+    color: #747474;
+    border-color: #6c757d;
+    border: 1px solid #EFEFEF;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    transition: all .2s;
+}
+.social-icon:hover {
+  background-color: #EFEFEF;
+}
+.widget-title {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+.nav-link {
+    display: block;
+    color: #6c757d;
+    font-size: 1.6rem;
+    line-height: 3.4rem;
+}
+.footer-menu p {
+    color: #6c757d;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-bottom: 2rem;
+}
+.footer-input {
+    background-color: rgba(248, 248, 248);
+    border: none;
+    outline: none;
+    font-size: 1.6rem;
+    padding: .8rem 1.2rem;
+    border-radius: .5rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.footer-input:focus {
+    border-color: #3b82f6 ;
+    outline: 0;
+    box-shadow: 0 0 0 0.5rem rgba(189, 214, 249, 0.5);
+}
+.subscribe-btn {
+    border: none;
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: #212529;
+    color: #f7f7f7;
+    border-top-right-radius: .7rem !important;
+    border-bottom-right-radius: .7rem !important;
+}
+.rights {
+    font-size: 1.6rem;
+    color: #6c757d;
+}
+.footer-end {
+    text-align: end;
+}
+.footer-link{
+    color: #212529;
+    text-decoration: underline;
+}
