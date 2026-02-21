@@ -12,6 +12,7 @@
      <link rel="stylesheet" href="css/genral.css">
      <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="css/responsive.css">
+     <link rel="stylesheet" href="css/toggle.css">
     <!-- Additional ICON Files -->
     <!-- Font Awesome CDN -->
  <link
@@ -23,6 +24,51 @@
   </head>
 
   <body>
+    <!-- All toggle area -->
+     <div class="overlay"></div>
+     <div class="offcanvas offcanvas-end" id="offcanvasCart">
+      <div class="offcanvas-header justify-cntent-center">
+        <button class="btn-close">
+          <i class="fa-solid fa-times"></i>
+        </button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="">
+          <h4 class="de-flex justify-cntent-space text-aling me-3">
+            <span class="text-primary">Your cart</span>
+            <span class="bg-primary">3</span>
+          </h4>
+          <ul class="list-grp me-3">
+            <li class="list-grp-item de-flex justify-cntent-space">
+              <div class="offcanvas-text">
+                <h6>Growers cider</h6>
+                <small>Brief description</small>
+              </div>
+              <span class="offcanvas-text-secondery">$12</span>
+            </li>
+            <li class="list-grp-item de-flex justify-cntent-space">
+              <div class="offcanvas-text">
+                <h6>Fresh grapes</h6>
+                <small>Brief description</small>
+              </div>
+              <span class="offcanvas-text-secondery">$8</span>
+            </li>
+            <li class="list-grp-item de-flex justify-cntent-space">
+              <div class="offcanvas-text">
+                <h6>Heinz tomato ketchup</h6>
+                <small>Brief description</small>
+              </div>
+              <span class="offcanvas-text-secondery">$5</span>
+            </li>
+            <li class="list-grp-item de-flex justify-cntent-space">
+              <span class="total">Total (USD)</span>
+              <strong>$20</strong>
+            </li>
+          </ul>
+          <button class="btn-primary-continue">Continue to checkout</button>
+        </div>
+      </div>
+     </div>
     <!-- Header section -->
      <header>
       <div class="container-flud">
@@ -70,13 +116,13 @@
          <div class="col-log-16 de-flex user-cart">
            <ul class="de-flex gap-01">
              <li>
-              <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-user"></i>
              </li>
              <li>
-              <i class="fa-regular fa-floppy-disk"></i>
+                <i class="fa-regular fa-floppy-disk"></i>
              </li>
-             <li>
-              <i class="fa-solid fa-basket-shopping"></i>
+             <li id="cart-icon">
+                <i class="fa-solid fa-basket-shopping"></i>
              </li>
            </ul>
          </div>

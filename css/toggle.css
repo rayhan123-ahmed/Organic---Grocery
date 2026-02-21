@@ -1,0 +1,114 @@
+/* *********** */
+/* TOGGLE FOR CART SECTION */
+/* *********** */
+.offcanvas-end{
+    top: 0;
+    right: 0;
+    width: 40rem;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+}
+.offcanvas{
+   position: fixed;
+   bottom: 0;
+   z-index: 1045;
+   display: flex;
+   flex-direction: column;
+   max-width: 100%;
+   color: #747474;
+   background-color: #fff;
+   outline: 0;
+   background-clip: padding-box;
+   opacity: 0;
+   transform: translateX(100%);
+   transition: transform 0.4s ease, opacity 0.4s ease;
+}
+.show{
+    opacity: 1;
+    transform: translateX(0);
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+}
+.overlay.show{
+    opacity: 1;
+    visibility: visible;
+}
+.offcanvas-header {
+    display: flex;
+    padding: 1.6rem;
+    align-items: center;
+}
+.btn-close {
+    border: none;
+    font-size: 2.6rem;
+    background-color: #fff;
+    color: #747474;
+}
+.btn-close:hover {
+    color: #212529;
+}
+.btn-close:focus {
+    border-color: #3b82f6 ;
+    outline: 0;
+    box-shadow: 0 0 0 0.5rem rgba(189, 214, 249, 0.5);
+}
+.offcanvas-body{
+    padding: 1rem;
+}
+.text-primary {
+    color: #6bb252;
+    font-size: 2.2rem;
+}
+.bg-primary {
+    color: #fff;
+    background-color: #6bb252;
+    padding: .8rem 1.2rem;
+    font-size: 1.6rem;
+    border-radius: 2.2rem;
+}
+.list-grp{
+    display: flex;
+    flex-direction: column;
+}
+.list-grp-item{
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+}
+.list-grp-item:last-child{
+   margin: 0;
+}
+.offcanvas-text h6 {
+    font-size: 1.8rem;
+    color: #212529;
+}
+.offcanvas-text small {
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+.offcanvas-text-secondery {
+    font-size: 2rem;
+}
+.total {
+    font-size: 1.6rem;
+}
+.btn-primary-continue {
+    background-color: #6bb252;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 2rem;
+    padding: 1.2rem 1.5rem;
+    border-radius: .8rem;
+    transition: all .3s;
+}
+.btn-primary-continue:hover {
+    background-color: #f7a422; 
+}
