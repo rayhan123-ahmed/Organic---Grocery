@@ -147,6 +147,9 @@ i{
 .justify-cntent-space{
   justify-content: space-between;
 }
+.justify-cntent-end{
+  justify-content: flex-end;
+}
 .gap-01{
   gap: 3rem;
 }
@@ -155,6 +158,9 @@ i{
 }
 .gap-03{
   gap: .5rem;
+}
+.gap-04{
+  gap: 2rem;
 }
 .fy-y{
   padding: 5rem 0;
