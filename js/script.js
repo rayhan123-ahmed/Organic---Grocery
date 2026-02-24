@@ -32,6 +32,15 @@ menuClose.addEventListener("click", () => {
   document.body.style.overflow = "";
   document.body.style.paddingRight = "";
 });
+// this section is working when i click enywhere in the screen the toggle section will gone
+overlay.addEventListener('click',()=>{
+     offcanvas.classList.remove("show");
+     menuCanvas.classList.remove("show");
+     overlay.classList.remove("show");
+
+     document.body.style.overflow = "";
+     document.body.style.paddingRight = "";
+})
 
 // This section is created for dropdwon
 
