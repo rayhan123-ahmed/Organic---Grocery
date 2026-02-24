@@ -562,6 +562,7 @@ del {
     border-color: #364127;
     border: 1px solid #747474;
     border-radius: .5rem;
+    height: 100%;
 }
 .service-icon {
     font-size: 2rem;

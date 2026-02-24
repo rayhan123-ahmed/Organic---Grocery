@@ -1,0 +1,26 @@
+/* *********** */
+/* BELOW 1300px (Desktop) */
+/* *********** */
+@media  (max-width: 81.25em){
+   .header-01{
+    width: 20%;
+   }
+   .header-02{
+    width: 40%;
+   }
+   .header-03{
+    width: 40%;
+   }
+   .header-04 {
+        width: 100%;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .container-lg {
+    max-width: 110rem;
+    }
+    .col-log-20 {
+    flex: 0 0 auto;
+    width: 25%;
+   }
+}
