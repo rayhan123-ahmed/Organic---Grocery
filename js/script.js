@@ -33,4 +33,12 @@ menuClose.addEventListener("click", () => {
   document.body.style.paddingRight = "";
 });
 
+// This section is created for dropdwon
 
+const toggle = document.getElementById('dropdownToggle');
+const dropdwon = document.querySelector(".dropdwon-content");
+
+toggle.addEventListener('click',(e)=>{
+    e.preventDefault();
+    dropdwon.classList.toggle("visible");
+})

@@ -71,6 +71,50 @@ header{
     font-size: 1.8rem;
     font-weight: 600;
 }
+.dropdwon-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+.dropdwon{
+    position: relative;
+}
+.dropdwon-content {
+    position: absolute;
+    background-color: #f8f9fa;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    min-width: 18rem;
+    padding: 1.6rem;
+    top: 100%;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transform:translateY(-1rem) ;
+    transition: all .3s ease;
+}
+.visible {
+    visibility: visible;
+    opacity: 1;
+    transform:translateY(0) ;
+}
+.dropdwon-item {
+    display: block;
+    color: #747474;
+    font-weight: 300;
+    padding: .3rem 1rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+}
+.dropdwon-item:hover {
+    background-color: #7474744b;
+    border-radius: .5rem;
+}
 .nav-link{
     color:#212529 ;
 }
