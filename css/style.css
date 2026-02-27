@@ -362,7 +362,8 @@ del {
     padding: 4rem 0;
 }
 .banner-wrapper{
-    display: flex;
+    display: grid;
+    grid-template-columns: 60fr 40fr;
     gap: 3rem;
     height: 45rem;
 }
@@ -422,15 +423,19 @@ del {
 .right-top,
 .right-bottom{
     flex: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center ;
+   
 }
 .right-top{
     background: url(../images/banner-ad-2.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
 }
 .right-bottom{
     background: url(../images/banner-ad-3.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
 }
 /* *********** */
 /* CONATCT SECTION */
@@ -444,6 +449,11 @@ del {
     background-size: cover;
     height: 30rem;
     padding: 5rem 0;
+}
+.contact-boxs {
+    display: grid;
+    grid-template-columns: 40fr 40fr;
+    padding: 0 4rem;
 }
 .contact-box{
     padding: 1rem;

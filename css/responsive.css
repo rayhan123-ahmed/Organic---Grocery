@@ -19,8 +19,47 @@
     .container-lg {
     max-width: 110rem;
     }
-    .col-log-20 {
-    flex: 0 0 auto;
-    width: 25%;
+    .grid{
+      grid-template-columns: repeat(4,1fr);
+    }
+}
+/* *********** */
+/* BELOW 1100px (Laptop) */
+/* *********** */
+@media  (max-width: 68.75em){
+   .header-01{
+      width: 30%;
    }
+    .header-02{
+    width: 70%;
+   }
+   .header-03{
+    width: 100%;
+   }
+   .home-main{
+      width: 100%;
+   }
+   .home-h2 {
+    font-size: 6.4rem;
+    margin-bottom: 2rem;
+   }
+   .grid{
+      grid-template-columns: repeat(3,1fr);
+   }
+    .banner-wrapper{
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    height: 80rem;
+   }
+   .contact-boxs {
+    padding: 0;
+   }
+   .app-img {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+   }
+   .app-bg {
+      padding: 5rem;
+   }
+
 }
