@@ -17,7 +17,7 @@
         margin-top: 2rem;
     }
     .container-lg {
-    max-width: 110rem;
+   max-width: 110rem;
     }
     .grid{
       grid-template-columns: repeat(4,1fr);
@@ -61,5 +61,94 @@
    .app-bg {
       padding: 5rem;
    }
-
+}
+/* *********** */
+/* BELOW 768px (tablet) */
+/* *********** */
+@media  (max-width: 48em){
+   .container-lg {
+        max-width: 80rem;
+        padding: 0 1rem;
+   }
+   .header-01 {
+      width: 100%;
+      justify-content: center;
+      min-height: 7rem;
+      align-items: center;
+   }
+   .header-02 {
+        width: 100%;
+        min-height: 5rem;
+   }
+   .header-03 {
+        min-height: 5rem;
+   }
+   .home-h2 {
+        font-size: 5.4rem;
+        margin-bottom: 2rem;
+        line-height: 6rem;
+    }
+    .organic {
+    font-size: 5rem;
+   }
+   .home-p2 {
+   font-size: 3.2rem;
+   }
+   .col{
+     flex-direction: column;
+     text-align: start;
+   }
+   .green-card,
+   .olive-card,
+   .orange-card {
+    width: 100%;
+   }
+   .icon-card{
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      gap: 2rem;
+   }
+   .section-title {
+      font-size: 2.5rem;
+   }
+   .btn-view {
+      font-size: 1.4rem;
+   }
+   .grid{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+   }
+   .grid-1{
+      display: grid;
+      grid-template-columns: 1fr;
+   }
+   .app-img {
+        flex-wrap: nowrap;
+        margin-top: 2rem;
+    }
+   .app-bg {
+        padding-bottom: 0;
+    }
+   .app-text{
+      width: 100%;
+      padding: 2rem;
+   }
+   .col-log-41 {
+    width: 100%;
+   }
+   .col-log-25 {
+    width: 50%;
+   }
+   .cl-50  {
+      width: 50%;
+      margin-bottom: 2rem;
+   }
+   .cl-100 {
+      width: 100%;
+      text-align: start;
+   }
+   .cl-100:first-child{
+      margin-bottom: 1.6rem;
+   }
 }
