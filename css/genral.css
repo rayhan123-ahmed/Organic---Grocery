@@ -114,7 +114,7 @@ i{
 }
 .col-log-75{
   flex: 0 0 auto;
-  width: 75.33333333%;
+  width: 75%;
 }
 .col-log-100{
   flex: 0 0 auto;
@@ -181,4 +181,8 @@ i{
 }
 .flex-wrap{
   flex-wrap: nowrap;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
 }
