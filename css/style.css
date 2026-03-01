@@ -447,7 +447,7 @@ del {
     background: url(../images/banner-newsletter.jpg),no-repeat;
     background-position: center;
     background-size: cover;
-    height: 30rem;
+    min-height: 30rem;
     padding: 5rem 0;
 }
 .contact-boxs {

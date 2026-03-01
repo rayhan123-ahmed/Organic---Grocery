@@ -83,6 +83,9 @@
    .header-03 {
         min-height: 5rem;
    }
+   .header-04 {
+       margin-top: 0;
+   }
    .home-h2 {
         font-size: 5.4rem;
         margin-bottom: 2rem;
@@ -150,5 +153,44 @@
    }
    .cl-100:first-child{
       margin-bottom: 1.6rem;
+   }
+}
+/* *********** */
+/* BELOW 480PX (Phone) */
+/* *********** */
+@media  (max-width: 30em){
+   .home-h2 {
+      font-size: 5rem;
+   }
+   .home-p {
+    font-size: 2rem;
+   }
+   .grid {
+        grid-template-columns: 1fr;
+    }
+    .contact-boxs {
+    grid-template-columns: 1fr;
+   }
+   .contact-bg {
+    min-height: 50rem;
+    gap: 2rem;
+   }
+   .col-log-25 {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+   .scoial-links {
+     margin-bottom: 2rem;
+   }
+    .cl-50 {
+        width: 100%;
+        margin-bottom: 2rem;
+   }
+   .footer-menu form{
+      flex-wrap: nowrap;
+   }
+   .rights {
+    font-size: 1.4rem;
+    color: #6c757d;
    }
 }
